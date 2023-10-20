@@ -78,7 +78,7 @@ const noteLine = document.querySelector('.note-line')
 ;((chooseText = friendText) => {
     let randomText = Math.floor(Math.random() * (chooseText.length))
     noteLine.innerText = chooseText[randomText]
-})(friendText);
+})(motherText);
 
 const handleClickEnvelope = () => {
     envelope.classList.toggle("open");
